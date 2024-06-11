@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Plane-crash';
+    src: url('./Plane Crash.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'campus';
+    src: url('./CAMPUS PERSONAL USE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'doctor';
+    src: url('./Doctor Glitch.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
