@@ -1,3 +1,37 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Pour centrer le contenu s'il y a du texte autour */
+    width: 100%;
+    /* max-width: 1000px; */ /* Ajuste la taille maximale selon tes besoins */
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre le texte au milieu */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Pour ajouter de l'espace autour du texte */
+    border-radius: 5px; /* Bordures arrondies pour un style plus agréable */
+    font-family: 'doctor'; /* Utilise la police importée */
+    font-size:43px;
+}
+
+.text-overlay h1 {
+    margin: 0; /* Supprime les marges par défaut */
+    font-size: 2em; /* Taille du texte, ajuste selon tes besoins */
+    font-weight: bold; /* Optionnel, pour du texte plus gras */
+    font-family: 'doctor';
+}
 h1{
-        font-family: 'doctor';
+    font-family: 'doctor';
+}
+.high{
+    color: green;
 }
